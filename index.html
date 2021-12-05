@@ -4,12 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Boxmodellen</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Lexend+Deca:wght@600&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <title>Boxmodellen</title>    
 </head>
 <body>
-    <h2>Boxmodellen</h2>
-    <p>
-        
-    </p>
+    <div id="container">
+        <nav id="navigation">
+            <ul>
+                <li><a href="index.html" class="current">Fråga D</a></li>
+                <li><a href="page2.html">Fråga E</a></li>
+                <li><a href="page3.html">Fråga F</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h1>Boxmodellen</h1>
+            <h2>Boxmodellen och dess egenskaper</h2>
+            <p> Boxmodellen är en term som beskriver hur en webbsidas layout ser ut för olika HTML-element. Med den kan man bestämma mellanrum mellan element. Boxmodellen är kortfattat en låda, eller en “box”, som omger ett HTML-element. Modellen är uppbyggd av fyra huvudsakliga egenskaper: innehåll, padding, border och margin. </p>
+                <p>
+                Innehållet omfattar det som finns i HTML-dokumentet, såsom text, bilder och länkar. 
+                Padding avser ett tomt område som omger innehållet.
+                Border är en gräns som omger innehåll och padding.
+                Margin är ett område som frilägger yta omkring border.
+                  </p>
+            <h2>Skillnaden mellan content-box och border-box</h2>
+            <p> Inom egenskapen box-sizing är content-box standardinställningen. Content-box avser width och height av boxens självaste innehåll, utan att ta med padding eller border. Å andra sidan avser border-box inte bara innehållet utan även padding och border. 
+            </p>
+            <img src="img/boxmodellen.png" alt="Boxmodellen">
+        </main>
+    </div>
+    <footer>
+        <p>Noah Blomberg</p>
+    </footer>
 </body>
 </html>
